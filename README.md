@@ -1,7 +1,6 @@
 # nextflow_wc
 Nextflow for word count
 <br>
-To run fastqc tool using nextflow by installing tool on existing environment:
 <br>
 PRE-REQUISITE:
 <br>
