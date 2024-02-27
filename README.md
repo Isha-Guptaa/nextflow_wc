@@ -32,7 +32,7 @@ source ~/.bashrc
 <br>
 nextflow -version
 <br>
-Run:
+7)Run:
 <br>
 nextflow run word_count.nf
 
