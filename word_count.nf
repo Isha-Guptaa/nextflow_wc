@@ -1,6 +1,6 @@
 nextflow.enable.dsl=2
 
-params.input = "/home/ishagupta/nextflow_workflow/word_count/data/consolidated_fna/ecoli_database"
+params.input = "${launchDir}/data/ecoli_database"
 
 input_ch = Channel.fromPath(params.input)
 
@@ -34,6 +34,9 @@ process NUM_LINES {
     
     grep 'plasmid' ${read} | wc -l
 
+    printf 'complete sequence:'
+    
+    grep 'complete sequence' ${read} | wc -l
     """
 }
 
