@@ -34,7 +34,7 @@ process NUM_LINES {
     
     grep 'plasmid' ${read} | wc -l
 
-    printf 'complete sequence:'
+    printf 'Complete sequence:'
     
     grep 'complete sequence' ${read} | wc -l
     """
